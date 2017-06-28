@@ -1,8 +1,8 @@
 import React from 'react'
-import NoteComponent from './notecomponent.jsx'
+import NoteContainer from './containers/notecontainer'
 const App = () => (
   <div>
-    <NoteComponent />
+    <NoteContainer />
   </div>
 )
 export default App

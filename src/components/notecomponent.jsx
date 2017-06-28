@@ -1,9 +1,9 @@
 import React from 'react'
+import {Editor} from 'draft-js'
 
-const NoteComponent = ({dispatch}) => (
+const NoteComponent = ({dispatch, editorState}) => (
   <div>
-    <button onClick={dispatch}>Save</button>
-    <textarea rows="20"></textarea>
+    <Editor EditorState={editorState} onChange={dispatch}/>
   </div>
 )
 export default NoteComponent
