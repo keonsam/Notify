@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import NoteComponent from '../components/notecomponent.jsx'
 import {EditorState} from 'draft-js'
 const mapStateToProps = (state) => {
-  if(state.editorState == "") {
+  if(state.editorState === "") {
     return {
       editorState: EditorState.createEmpty()
     }
