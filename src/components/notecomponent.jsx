@@ -1,9 +1,10 @@
 import React from 'react'
-import {Editor} from 'draft-js'
+import { Editor } from 'draft-js'
 
-const NoteComponent = ({dispatch, editorState}) => (
-  <div>
-    <Editor EditorState={editorState} onChange={dispatch}/>
-  </div>
+const NoteComponent = ({ editorState, onSave }) => (
+  <Editor
+    editorState={editorState}
+    onChange={onSave}
+  />
 )
 export default NoteComponent

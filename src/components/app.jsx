@@ -1,5 +1,6 @@
 import React from 'react'
-import NoteContainer from './containers/notecontainer'
+import NoteContainer from '../containers/notecontainer'
+
 const App = () => (
   <div>
     <NoteContainer />
