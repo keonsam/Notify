@@ -6,4 +6,5 @@ const App = () => (
     <NoteContainer />
   </div>
 )
+
 export default App

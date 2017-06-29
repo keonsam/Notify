@@ -7,4 +7,5 @@ const NoteComponent = ({ editorState, onSave }) => (
     onChange={onSave}
   />
 )
+
 export default NoteComponent
