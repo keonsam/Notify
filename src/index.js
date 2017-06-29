@@ -5,7 +5,7 @@ import { createStore } from 'redux'
 import reducer from './reducers/index'
 import { Provider } from 'react-redux'
 import { EditorState } from 'draft-js'
-import './index.css'
+import './index.css' //
 
 const store = createStore(reducer, {editorState: EditorState.createEmpty()}, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
