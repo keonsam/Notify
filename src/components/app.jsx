@@ -3,6 +3,7 @@ import NoteContainer from '../containers/notecontainer'
 
 const App = () => (
   <div>
+    <button id="save">Save</button>
     <NoteContainer />
   </div>
 )

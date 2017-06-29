@@ -1,3 +1,26 @@
-#root {
-  background-color: blue;
+html {
+  background-color: #99ffcc;
+  font-size: 24px;
+  font-family: courier;
+}
+
+button {
+  background-color: #9fc;
+  border: 2px solid #008CBA;
+  color: black;
+  padding: 16px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
 }
